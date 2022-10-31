@@ -1,0 +1,101 @@
+AFG,Afghanistan
+ALB,Albania
+DZA,Algeria
+ARG,Argentina
+ARM,Armenia
+AUS,Australia
+AUT,Austria
+AZE,Azerbaijan
+BLR,Belarus
+BEL,Belgium
+BTN,Bhutan
+BOL,Bolivia
+BIH,Bosnia and Herzegovina
+BRA,Brazil
+BGR,Bulgaria
+CAN,Canada
+CHL,Chile
+CHN,China
+COL,Colombia
+HRV,Croatia
+CYP,Cyprus
+CZE,Czechia
+OWID_CZS,Czechoslovakia
+DNK,Denmark
+ECU,Ecuador
+EGY,Egypt
+SLV,El Salvador
+EST,Estonia
+FIN,Finland
+FRA,France
+GEO,Georgia
+DEU,Germany
+GRC,Greece
+GRD,Grenada
+GTM,Guatemala
+HND,Honduras
+HUN,Hungary
+IND,India
+IRN,Iran
+IRQ,Iraq
+IRL,Ireland
+ISR,Israel
+ITA,Italy
+JPN,Japan
+JOR,Jordan
+KAZ,Kazakhstan
+KEN,Kenya
+KGZ,Kyrgyzstan
+LVA,Latvia
+LBN,Lebanon
+LBY,Libya
+LTU,Lithuania
+LUX,Luxembourg
+MDG,Madagascar
+MWI,Malawi
+MLT,Malta
+MEX,Mexico
+MDA,Moldova
+MNE,Montenegro
+MAR,Morocco
+NPL,Nepal
+NZL,New Zealand
+NLD,Netherlands
+PRK,North Korea
+MKD,North Macedonia
+NOR,Norway
+PAK,Pakistan
+PSE,Palestine
+PRY,Paraguay
+PER,Peru
+POL,Poland
+PRT,Portugal
+REU,Reunion
+ROU,Romania
+RUS,Russia
+VCT,Saint Vincent and the Grenadines
+SRB,Serbia
+OWID_SRM,Serbia and Montenegro
+SVK,Slovakia
+SVN,Slovenia
+ZAF,South Africa
+KOR,South Korea
+ESP,Spain
+SWE,Sweden
+CHE,Switzerland
+SYR,Syria
+TWN,Taiwan
+TJK,Tajikistan
+TUN,Tunisia
+TUR,Turkey
+TKM,Turkmenistan
+OWID_USS,USSR
+UKR,Ukraine
+GBR,United Kingdom
+USA,United States
+URY,Uruguay
+UZB,Uzbekistan
+OWID_WRL,World
+YEM,Yemen
+OWID_YGS,Yugoslavia
+ZWE,Zimbabwe
