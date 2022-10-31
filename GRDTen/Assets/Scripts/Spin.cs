@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Spin : MonoBehaviour
 {
+    [SerializeField] private float rotSpeed = 10f;
     void Update()
     {
-        transform.Rotate(0, 0, 20 * Time.deltaTime);
+        transform.Rotate(0, 0, rotSpeed * Time.deltaTime);
     }
 }
