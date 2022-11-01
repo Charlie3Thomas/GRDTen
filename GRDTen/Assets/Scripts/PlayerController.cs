@@ -5,10 +5,12 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private Transform orientation;
+    [SerializeField] private LineRenderer lr;
+    [SerializeField] private GameObject xSpot;
     [SerializeField] private float playerSpeed;
     [SerializeField] private LayerMask country;
     [SerializeField] private GameObject outlines;
-    [SerializeField] private Transform prevOutline;
+    private Transform prevOutline;
     private float speedMult = 1f;
     private Rigidbody rb;
 
@@ -38,7 +40,16 @@ public class PlayerController : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, 1 << country))
         {
-            if(fireRay)
+            lr.enabled = true;
+            lr.SetPosition(0, orientation.transform.position);
+            lr.SetPosition(1, hit.point);
+            if(xSpot != null)
+            {
+                xSpot.transform.position = hit.point;
+                xSpot.transform.up = hit.normal;
+                xSpot.SetActive(true);
+            }
+            if (fireRay)
             {
                 if (prevOutline != null)
                     prevOutline.GetComponent<Renderer>().material.SetInt("_isHighlighted", 0);
@@ -46,6 +57,13 @@ public class PlayerController : MonoBehaviour
                 outlines.transform.GetChild(hit.transform.GetSiblingIndex()).GetComponent<Renderer>().material.SetInt("_isHighlighted", 1);
                 prevOutline = outlines.transform.GetChild(hit.transform.GetSiblingIndex());
             }
+        }
+        else
+        {
+            lr.SetPosition(0, orientation.transform.position);
+            lr.SetPosition(1, orientation.transform.forward * 1000);
+            if (xSpot != null)
+                xSpot.SetActive(false);
         }
     }
 
