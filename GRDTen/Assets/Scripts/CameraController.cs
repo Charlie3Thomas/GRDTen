@@ -22,18 +22,20 @@ public class CameraController : MonoBehaviour
         float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
 
-        //Find current look rotation
+        // Find current look rotation
         Vector3 rot = transform.rotation.eulerAngles;
         desiredX = rot.y + mouseX;
 
-        //Rotate, and also make sure we dont over- or under-rotate.
+        // Rotate, and also make sure we dont over- or under-rotate.
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        //Perform the rotations
+        // Perform the rotations
         transform.rotation = Quaternion.Euler(xRotation, desiredX, 0);
+
         if (orientation == null)
             return;
+
         orientation.rotation = Quaternion.Euler(xRotation, desiredX, 0);
     }
 }

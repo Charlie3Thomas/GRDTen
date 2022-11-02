@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Model
+  - Orbit2
+  - Earth
+  - Orbit1
   layers:
   - Default
   - TransparentFX
@@ -12,10 +16,10 @@ TagManager:
   - Water
   - UI
   - Country
-  - 
-  - 
-  - 
-  - 
+  - Non-Orbital
+  - Orbital
+  - Orbit
+  - Extractor
   - 
   - 
   - 

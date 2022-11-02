@@ -10,7 +10,7 @@ public class DistributeTemperature : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rn = Random.Range(-5f, 28f);
+        rn = Random.Range(-6.84f, 4.66f);
 
         if (GetComponent<Renderer>() == null)
             return;
