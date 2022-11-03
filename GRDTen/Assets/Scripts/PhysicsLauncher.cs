@@ -4,11 +4,21 @@ using UnityEngine;
 
 public class PhysicsLauncher : MonoBehaviour
 {
+    public static PhysicsLauncher instance { get; private set; }
+
     [SerializeField] private GameObject physicsObject;
     [SerializeField] private int timeToShoot = 10;
     [SerializeField] private int amount = 1;
     private float spread = 10.0f;
     private float timer = 0.0f;
+
+    private void Awake()
+    {
+        if (instance != null)
+            Destroy(this.gameObject);
+        else
+            instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()

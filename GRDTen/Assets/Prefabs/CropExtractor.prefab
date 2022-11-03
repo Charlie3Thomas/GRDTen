@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2295679514842934647}
   - component: {fileID: 2295679514842934408}
   - component: {fileID: 6491241775223337042}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: CropExtractor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
