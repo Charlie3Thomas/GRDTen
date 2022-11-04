@@ -92,13 +92,13 @@ public class CropDataContainer : MonoBehaviour
 
         string[] data = cds_dictionary[_key].text.Split(new string[] { ",", "\n" }, StringSplitOptions.None);
         int table_size = data.Length / 4;
-        Debug.Log(_key + ": " + table_size);
+        //Debug.Log(_key + ": " + table_size);
 
         for (int i = 1; i < table_size - 1; i++)
         {
             string cd_name = data[(4 * i)];
             //Debug.Log(data[(4 * i) + 2]);
-            Debug.Log("              " + _key + cd_name + " " + i);
+            //Debug.Log("              " + _key + cd_name + " " + i);
             int cd_year = Int32.Parse(data[(4 * i) + 2]);
             long cd_tonnes = Int64.Parse(data[(4 * i) + 3]);
 
@@ -111,8 +111,9 @@ public class CropDataContainer : MonoBehaviour
         }
     }
 
-    private void Start()
+    private void OnEnable()
     {
+        Debug.Log("            Starting CropDataContainer");
         crops = new Dictionary<string,
                     Dictionary<string,
                     Dictionary<int, long>>>();
@@ -126,12 +127,12 @@ public class CropDataContainer : MonoBehaviour
             ReadCSVCrop(key);            
         }
 
-        GetDataForCountry("apple", "Afghanistan", 2000);
+        //GetDataForCountry("apple", "Afghanistan", 2000);
     }
 
-    public void GetDataForCountry(string _crop, string _coutnry_name, int _production_year)
+    public long GetDataForCountry(string _crop, string _coutnry_name, int _production_year)
     {
-        long data = crops[_crop][_coutnry_name][_production_year];
-        Debug.Log(data);
+        return crops[_crop][_coutnry_name][_production_year];
+        //Debug.Log(data);
     }
 }
