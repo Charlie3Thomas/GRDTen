@@ -113,7 +113,7 @@ public class CropDataContainer : MonoBehaviour
 
     private void OnEnable()
     {
-        Debug.Log("            Starting CropDataContainer");
+        //Debug.Log("            Starting CropDataContainer");
         crops = new Dictionary<string,
                     Dictionary<string,
                     Dictionary<int, long>>>();
@@ -124,7 +124,7 @@ public class CropDataContainer : MonoBehaviour
 
         foreach(var key in crops.Keys)
         {
-            ReadCSVCrop(key);            
+            ReadCSVCrop(key);
         }
 
         //GetDataForCountry("apple", "Afghanistan", 2000);

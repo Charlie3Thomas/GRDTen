@@ -13,14 +13,14 @@ public class CountryDataLoader : MonoBehaviour
 
     public void GetCropDataInTime(string _crop, int _year)
     {
-        Debug.Log(c_name + 
-            " produced " + 
-            crop_data_container.GetComponent<CropDataContainer>().
-                GetDataForCountry(_crop, c_name, _year) +
-            " tonnes of " +
-            _crop +
-            " in the year " +
-            _year);
+        //Debug.Log(c_name + 
+        //    " produced " + 
+        //    crop_data_container.GetComponent<CropDataContainer>().
+        //        GetDataForCountry(_crop, c_name, _year) +
+        //    " tonnes of " +
+        //    _crop +
+        //    " in the year " +
+        //    _year);
     }
 
     private void Start()
