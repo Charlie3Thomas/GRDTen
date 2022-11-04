@@ -18,7 +18,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6147268309774277949, guid: de7fc77a67fc278469f9f9ee75488f93, type: 3}
       propertyPath: m_Name
-      value: Country
+      value: Bahrain
+      objectReference: {fileID: 0}
+    - target: {fileID: 6147268309774277949, guid: de7fc77a67fc278469f9f9ee75488f93, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7457589804485318527, guid: de7fc77a67fc278469f9f9ee75488f93, type: 3}
       propertyPath: m_RootOrder
