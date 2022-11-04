@@ -8,8 +8,7 @@ public class CountryMatchUp : MonoBehaviour
 {
     [SerializeField] private GameObject globe;
     [SerializeField] private GameObject data;
-    //[SerializeField] private List<GameObject> _countries_models = new List<GameObject>();
-    //[SerializeField] private List<GameObject> _countries_data = new List<GameObject>();
+
     private Transform[] globe_country_models;
     private CountryDataLoader[] data_country_prefabs;
 
