@@ -27,10 +27,15 @@ public class Extractor : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        if(other.transform.CompareTag("Model"))
+        if(other.transform.gameObject.layer == LayerMask.NameToLayer("Country"))
         {
             if(other.transform.GetComponent<CountryProperties>().GetHighlighed())
+            {
+                if(other.transform.childCount > 0)
+                    pl.amount = other.transform.GetChild(0).GetComponent<CountryDataLoader>().GetCropDataInTime("apple", Calendar.instance.year);
+
                 Instantiate(pl.transform.gameObject, other.contacts[0].point, Quaternion.FromToRotation(transform.up, other.contacts[0].normal));
+            }
         }
 
         Destroy(gameObject);

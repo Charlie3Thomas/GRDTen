@@ -40,7 +40,8 @@ public class TempData : MonoBehaviour
 
     public float GetDataForCountry(string _country, int _year)
     {
-        return temps[_country][_year];
+        try { return temps[_country][_year]; }
+        catch { return -99; }
     }
 
 }

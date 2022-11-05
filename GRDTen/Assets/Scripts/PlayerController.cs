@@ -74,6 +74,10 @@ public class PlayerController : MonoBehaviour
                     prevCountry.GetComponent<CountryProperties>().GetOutlineMat().SetInt("_isHighlighted", 0);
 
                 hit.transform.GetComponent<CountryProperties>().GetOutlineMat().SetInt("_isHighlighted", 1);
+                Debug.Log(hit.transform.GetComponent<CountryProperties>().GetTemp());
+                if(hit.transform.childCount > 0)
+                    hit.transform.GetChild(0).GetComponent<CountryDataLoader>().GetCropDataInTime("apple", Calendar.instance.year);
+
                 prevCountry = hit.transform.gameObject;
             }
         }
