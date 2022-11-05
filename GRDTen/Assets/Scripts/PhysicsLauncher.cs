@@ -8,7 +8,7 @@ public class PhysicsLauncher : MonoBehaviour
 
     [SerializeField] private GameObject physicsObject;
     [SerializeField] private int timeToShoot = 10;
-    [SerializeField] private int amount = 1;
+    public long amount = 0;
     private float spread = 10.0f;
     private float timer = 0.0f;
 

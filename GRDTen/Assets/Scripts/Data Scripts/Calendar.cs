@@ -4,7 +4,16 @@ using UnityEngine;
 
 public class Calendar : MonoBehaviour
 {
+    public static Calendar instance;
     public int year = 1961;
+
+    private void Awake()
+    {
+        if (instance != null)
+            Destroy(this.gameObject);
+        else
+            instance = this;
+    }
 
     public void SetYear(int _year)
     {
