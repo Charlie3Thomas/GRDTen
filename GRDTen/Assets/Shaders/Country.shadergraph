@@ -7,9 +7,6 @@
             "m_Id": "c5ded55cb9f644909f316a60468cb239"
         },
         {
-            "m_Id": "157f353739d34e5ca466bf40b556ba8e"
-        },
-        {
             "m_Id": "48015b8ff24c43308e61c433121d8690"
         }
     ],
@@ -571,29 +568,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.BooleanShaderProperty",
-    "m_ObjectId": "157f353739d34e5ca466bf40b556ba8e",
-    "m_Guid": {
-        "m_GuidSerialized": "41dcebac-4517-404d-bb4f-15d24c9861a9"
-    },
-    "m_Name": "NoData",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "NoData",
-    "m_DefaultReferenceName": "_NoData",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_DismissedVersion": 0,
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": false
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.ComparisonNode",
     "m_ObjectId": "158d6a41d4624ff0a9480dada1ed83aa",
     "m_Group": {
@@ -853,9 +827,6 @@
     "m_ChildObjectList": [
         {
             "m_Id": "c5ded55cb9f644909f316a60468cb239"
-        },
-        {
-            "m_Id": "157f353739d34e5ca466bf40b556ba8e"
         },
         {
             "m_Id": "48015b8ff24c43308e61c433121d8690"

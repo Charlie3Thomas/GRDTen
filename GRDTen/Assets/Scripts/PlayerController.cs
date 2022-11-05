@@ -71,12 +71,12 @@ public class PlayerController : MonoBehaviour
             if (fireRay)
             {
                 if (prevCountry != null)
-                    prevCountry.GetComponent<CountryProperties>().GetOutlineMat().SetInt("_isHighlighted", 0);
+                    prevCountry.GetComponent<CountryTempsAndOutlines>().GetOutlineMat().SetInt("_isHighlighted", 0);
 
-                hit.transform.GetComponent<CountryProperties>().GetOutlineMat().SetInt("_isHighlighted", 1);
-                Debug.Log(hit.transform.GetComponent<CountryProperties>().GetTemp());
+                hit.transform.GetComponent<CountryTempsAndOutlines>().GetOutlineMat().SetInt("_isHighlighted", 1);
+                Debug.Log(hit.transform.GetComponent<CountryTempsAndOutlines>().GetTemp());
                 if(hit.transform.childCount > 0)
-                    hit.transform.GetChild(0).GetComponent<CountryDataLoader>().GetCropDataInTime("apple", Calendar.instance.year);
+                    hit.transform.GetChild(0).GetComponent<CountryDataLoader>().GetCropDataInTime(CropSelectionManager.instance.GetCurrentCrop().name, Calendar.instance.year);
 
                 prevCountry = hit.transform.gameObject;
             }

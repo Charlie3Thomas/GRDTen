@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CountryProperties : MonoBehaviour
+public class CountryTempsAndOutlines : MonoBehaviour
 {
     [SerializeField] private GameObject outlines;
     [SerializeField] private TempData td;
