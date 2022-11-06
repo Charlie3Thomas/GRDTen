@@ -21,18 +21,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private ParticleSystem shimmerParticle;
     private bool shoot = false;
 
-    // Country Stuff
+    // Earth Stuff
+    private GameObject earth;
     [SerializeField] private LayerMask country;
     private GameObject prevCountry;
-
-    // Inputs
-    private float inputX;
-    private float inputY;
-    private bool fireRay;
-    private bool chargeShot;
-    private bool release;
-    private bool flyDown;
-    private bool flyUp;
 
     /****************************************************************************************************************************** 
     *PLEASE NOTE THAT IF YOU CHANGE THE ORDER OF THE CHILDREN UNDER "OUTLINES" IN THE HEIRARCHY, THE OUTLINES WILL NOT BE ACCURATE* 
@@ -41,6 +33,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        earth = GameObject.FindGameObjectWithTag("Earth");
         rb = GetComponent<Rigidbody>();
         cpe = chargeParticle.emission;
         cpe.rateOverTime = 0.0f;
@@ -50,8 +43,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UpdateInput();
-
         Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, country))
@@ -68,7 +59,7 @@ public class PlayerController : MonoBehaviour
                 xSpot.SetActive(true);
             }
             // Highlight country
-            if (fireRay)
+            if (PlayerInputManager.instance.fireRay)
             {
                 if (prevCountry != null)
                     prevCountry.GetComponent<CountryTempsAndOutlines>().GetOutlineMat().SetInt("_isHighlighted", 0);
@@ -93,7 +84,7 @@ public class PlayerController : MonoBehaviour
         // Shoot crop extractor
         if (extractor != null)
         {
-            if (shoot && release)
+            if (shoot && PlayerInputManager.instance.release)
             {
                 GameObject extractorGO = Instantiate(extractor, shimmerParticle.transform.position, Quaternion.identity);
                 extractorGO.GetComponent<Rigidbody>().AddForce(orientation.forward * 200);
@@ -107,7 +98,7 @@ public class PlayerController : MonoBehaviour
 
     void ChargeShot()
     {
-        if (chargeShot)
+        if (PlayerInputManager.instance.chargeShot)
         {
             chargeTimer += Time.deltaTime;
             chargeTimer = Mathf.Clamp(chargeTimer, 0, chargeAmount);
@@ -134,24 +125,15 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         // Movement
-        Vector3 moveDir = orientation.forward * inputY + orientation.right * inputX;
-        rb.AddForce(moveDir.normalized * playerSpeed * speedMult, ForceMode.Acceleration);
+        float distMultiplier =  Mathf.Clamp(Mathf.Exp((Vector3.Distance(transform.position, earth.transform.position) / 30f)) - 1.2f, 0, 2);
+        //Debug.Log(distMultiplier);
+        Vector3 moveDir = orientation.forward * PlayerInputManager.instance.inputY + orientation.right * PlayerInputManager.instance.inputX;
+        rb.AddForce(moveDir.normalized * playerSpeed * speedMult * distMultiplier, ForceMode.Acceleration);
 
-        if (flyDown)
-            rb.AddForce(Vector3.down * playerSpeed * speedMult, ForceMode.Acceleration);
+        if (PlayerInputManager.instance.flyDown)
+            rb.AddForce(Vector3.down * playerSpeed * speedMult * distMultiplier, ForceMode.Acceleration);
 
-        if (flyUp)
-            rb.AddForce(Vector3.up * playerSpeed * speedMult, ForceMode.Acceleration);
-    }
-
-    void UpdateInput()
-    {
-        inputX = Input.GetAxis("Horizontal");
-        inputY = Input.GetAxis("Vertical");
-        fireRay = Input.GetKeyDown(KeyCode.Mouse0);
-        chargeShot = Input.GetKey(KeyCode.Mouse0);
-        release = Input.GetKeyUp(KeyCode.Mouse0);
-        flyUp = Input.GetKey(KeyCode.Space);
-        flyDown = Input.GetKey(KeyCode.LeftControl);
+        if (PlayerInputManager.instance.flyUp)
+            rb.AddForce(Vector3.up * playerSpeed * speedMult * distMultiplier, ForceMode.Acceleration);
     }
 }

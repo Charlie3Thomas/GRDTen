@@ -25,7 +25,7 @@ public class PhysicsBody : MonoBehaviour
     {
         if(transform.parent != null)
         {
-            if (Input.GetKeyDown(KeyCode.R) || transform.parent.childCount >= 1000)
+            if (Input.GetKeyDown(KeyCode.R) || transform.parent.childCount >= 2500)
             {
                 transform.parent = null;
                 gameObject.layer = LayerMask.NameToLayer("Collecting");
