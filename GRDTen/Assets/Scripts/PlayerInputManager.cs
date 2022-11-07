@@ -40,7 +40,7 @@ public class PlayerInputManager : MonoBehaviour
         release = Input.GetKeyUp(KeyCode.Mouse0);
         flyUp = Input.GetKey(KeyCode.Space);
         flyDown = Input.GetKey(KeyCode.LeftControl);
-        fastForward = Input.GetKey(KeyCode.RightArrow);
-        rewind = Input.GetKey(KeyCode.LeftArrow);
+        fastForward = Input.GetKey(KeyCode.E);
+        rewind = Input.GetKey(KeyCode.Q);
     }
 }

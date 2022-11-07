@@ -20,16 +20,6 @@ public class Calendar : MonoBehaviour
     private void Update()
     {
         year = Mathf.Clamp(year, minYear, maxYear);
-
-        if(PlayerInputManager.instance.rewind)
-        {
-            DecrementYear();
-        }
-
-        if (PlayerInputManager.instance.fastForward)
-        {
-            IncrimentYear();
-        }
     }
 
     public void SetYear(int _year)
