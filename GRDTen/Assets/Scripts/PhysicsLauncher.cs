@@ -7,10 +7,12 @@ public class PhysicsLauncher : MonoBehaviour
     public static PhysicsLauncher instance { get; private set; }
 
     [SerializeField] private GameObject physicsObject;
-    [SerializeField] private int timeToShoot = 10;
-    [SerializeField] private int amount = 1;
-    private float spread = 10.0f;
+    [SerializeField] private GameObject physicsObjectManager;
+    private float scaleModifier = 0.5f;
+    public long amount = 0;
+    private float spread = 25.0f;
     private float timer = 0.0f;
+    private int divisible = 10000;
 
     private void Awake()
     {
@@ -23,6 +25,7 @@ public class PhysicsLauncher : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        physicsObjectManager = GameObject.Find("PhysicsObjectManager");
         StartCoroutine(ShootObjects());
     }
 
@@ -34,18 +37,37 @@ public class PhysicsLauncher : MonoBehaviour
 
     IEnumerator ShootObjects()
     {
-        if (physicsObject == null)
-            yield return null;
+        physicsObject = CropSelectionManager.instance.GetCurrentCrop();
+        long extractedCount = 0;
+        long actualAmount = amount / divisible;
 
-        while (timer <= timeToShoot)
+        if (amount > 0 && amount < divisible)
+            actualAmount = 1;
+
+        if(actualAmount > 1000 && actualAmount < 10000)
+        {
+            scaleModifier = 2f;
+            actualAmount /= 10;
+        }
+        else if(actualAmount > 10000)
+        {
+            scaleModifier = 4f;
+            actualAmount /= 100;
+        }
+
+        Debug.Log(actualAmount);
+
+        while (extractedCount < actualAmount)
         {
             float randomNumberX = Random.Range(-spread, spread);
             float randomNumberY = Random.Range(-spread, spread);
             float randomNumberZ = Random.Range(-spread, spread);
-            GameObject physicsGO = Instantiate(physicsObject, transform.position, transform.rotation);
+            GameObject physicsGO = Instantiate(physicsObject, transform.position, transform.rotation, physicsObjectManager.transform);
             physicsGO.transform.Rotate(randomNumberX, randomNumberY, randomNumberZ);
+            physicsGO.transform.localScale *= scaleModifier;
             physicsGO.GetComponent<Rigidbody>().AddForce(physicsGO.transform.forward * 100);
-            yield return new WaitForSeconds(timeToShoot / amount);
+            extractedCount++;
+            yield return new WaitForSeconds(0.001f);
         }
 
         Destroy(gameObject);

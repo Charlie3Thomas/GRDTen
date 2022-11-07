@@ -4,7 +4,23 @@ using UnityEngine;
 
 public class Calendar : MonoBehaviour
 {
+    public static Calendar instance;
     public int year = 1961;
+    private int minYear = 1961;
+    private int maxYear = 2020;
+
+    private void Awake()
+    {
+        if (instance != null)
+            Destroy(this.gameObject);
+        else
+            instance = this;
+    }
+
+    private void Update()
+    {
+        year = Mathf.Clamp(year, minYear, maxYear);
+    }
 
     public void SetYear(int _year)
     {
@@ -23,6 +39,6 @@ public class Calendar : MonoBehaviour
 
     private void Start()
     {
-        year = Random.Range(1961, 2020);
+        year = Random.Range(minYear, maxYear);
     }
 }

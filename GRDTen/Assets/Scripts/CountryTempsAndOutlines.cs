@@ -2,25 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CountryProperties : MonoBehaviour
+public class CountryTempsAndOutlines : MonoBehaviour
 {
     [SerializeField] private GameObject outlines;
+    [SerializeField] private TempData td;
     private Material outlineMat;
     private bool isHighlighed;
-    private float rn;
     private Material mat;
 
     // Start is called before the first frame update
     void Start()
     {
-        rn = Random.Range(-6.84f, 4.66f);
-
         if (GetComponent<Renderer>() == null)
             return;
 
         mat = this.gameObject.GetComponent<Renderer>().material;
         outlineMat = outlines.transform.GetChild(transform.GetSiblingIndex()).GetComponent<Renderer>().material;
-        mat.SetFloat("_Temperature", rn);
     }
 
     void Update()
@@ -31,6 +28,11 @@ public class CountryProperties : MonoBehaviour
         isHighlighed = ((outlineMat.GetInt("_isHighlighted")) == 1) ? true : false;
     }
 
+    private void FixedUpdate()
+    {
+        mat.SetFloat("_Temperature", GetTemp());
+    }
+
     public bool GetHighlighed()
     {
         return isHighlighed;
@@ -39,5 +41,13 @@ public class CountryProperties : MonoBehaviour
     public Material GetOutlineMat()
     {
         return outlineMat;
+    }
+
+    public float GetTemp()
+    {
+        if (transform.childCount > 0)
+            return td.GetDataForCountry(transform.GetChild(0).name, Calendar.instance.year);
+        else
+            return -99f;
     }
 }

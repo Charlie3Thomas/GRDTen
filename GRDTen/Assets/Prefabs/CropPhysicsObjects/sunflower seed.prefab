@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4044824518771160978}
   - component: {fileID: 4044824518771160979}
   m_Layer: 7
-  m_Name: PhysicsObjectTest
+  m_Name: sunflower seed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 745b2d2dd569fb04abd5839c6ff55044, type: 2}
+  - {fileID: 2100000, guid: 81894a3aa9b7bd343a3f57e1a64c1b75, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -127,5 +127,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ca4977266da7d44cb7a30e5f60550dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  earth: {fileID: 0}
-  orbit1: {fileID: 0}
+  theSuck: {fileID: 0}
