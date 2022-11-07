@@ -23,10 +23,14 @@ public class PhysicsBody : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
+        if(transform.parent != null)
         {
-            gameObject.layer = LayerMask.NameToLayer("Collecting");
-            getSucked = true;
+            if (Input.GetKeyDown(KeyCode.R) || transform.parent.childCount >= 2500)
+            {
+                transform.parent = null;
+                gameObject.layer = LayerMask.NameToLayer("Collecting");
+                getSucked = true;
+            }
         }
 
         if (inOrbit)
