@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MainMenuPlanet : MonoBehaviour
 {
-    [SerializeField] private float roatation_speed = 3.0f;
+    [SerializeField] private float roatation_speed = 3.0f
+        ;
 
     void Update()
     {
