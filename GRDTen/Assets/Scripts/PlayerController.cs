@@ -61,7 +61,7 @@ public class PlayerController : MonoBehaviour
             try { // Get name from lookat country
                 CountryNameHolder._INSTANCE.selected_country_name = "Location: " + 
                     hit.transform.GetChild(0).GetComponent<CountryDataLoader>().c_name;
-            } catch { CountryNameHolder._INSTANCE.selected_country_name = "Location: none"; }
+            } catch { CountryNameHolder._INSTANCE.selected_country_name = "Location: " + hit.transform.GetChild(0).name; }
 
 
             // Scrolling line to aim towards country being aimed at
