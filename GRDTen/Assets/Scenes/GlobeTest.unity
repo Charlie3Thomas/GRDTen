@@ -13092,7 +13092,7 @@ GameObject:
   - component: {fileID: 1377088226}
   - component: {fileID: 1377088227}
   m_Layer: 5
-  m_Name: PauseAnchor
+  m_Name: UI Pause indicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

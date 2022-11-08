@@ -5,7 +5,7 @@ using UnityEngine;
 public class MainMenuCam : MonoBehaviour
 {
     [SerializeField] private Transform lookat_target;
-    void Start()
+    void Update()
     {
         this.transform.LookAt(lookat_target);
     }
