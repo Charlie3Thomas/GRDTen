@@ -134,7 +134,7 @@ public class CropDataContainer : MonoBehaviour
     public long GetDataForCountry(string _crop, string _coutnry_name, int _production_year)
     {
         try { return crops[_crop][_coutnry_name][_production_year]; }
-        catch { Debug.LogWarning(_coutnry_name + " has no" + _crop + " in the year " + _production_year); return -99; }
+        catch { Debug.LogWarning(_coutnry_name + " has no " + _crop + " in the year " + _production_year); return -99; }
         //Debug.Log(data);
     }
 

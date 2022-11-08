@@ -47,31 +47,21 @@ public class PlayerController : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, country))
         {
-            try
-            {
+            try { // Get temps from lookat country
                 CountryTempHolder._INSTANCE.selected_country_temp = hit.transform.GetComponent<CountryTempsAndOutlines>().GetTemp();
-            }catch
-            {
-                CountryTempHolder._INSTANCE.selected_country_temp = 0.0f;
-            }
-            try
-            {
+                if (CountryTempHolder._INSTANCE.selected_country_temp == -99) // if no data
+                    CountryTempHolder._INSTANCE.selected_country_temp = 0; } // set no temperature deviation
+            catch { CountryTempHolder._INSTANCE.selected_country_temp = 0.0f; } // set no temperature deviation
+            try { // Get yield of targeted crop from lookat country
                 CountryYieldHolder._INSTANCE.selected_country_yield = hit.transform.GetChild(0).GetComponent<CountryDataLoader>().
                                     GetCropDataInTime(CropSelectionManager.instance.GetCurrentCrop().name, Calendar.instance.year);
-                if (CountryYieldHolder._INSTANCE.selected_country_yield == -99)
-                    CountryYieldHolder._INSTANCE.selected_country_yield = 0;
-            }
-            catch
-            {
-                CountryYieldHolder._INSTANCE.selected_country_yield = 0;
-            }
-            try
-            {
-                CountryNameHolder._INSTANCE.selected_country_name = "Location: " + hit.transform.GetChild(0).GetComponent<CountryDataLoader>().c_name;
-            }catch
-            {
-                CountryNameHolder._INSTANCE.selected_country_name = "Location: none";
-            }
+                if (CountryYieldHolder._INSTANCE.selected_country_yield == -99) // if no data
+                    CountryYieldHolder._INSTANCE.selected_country_yield = 0; // set no yield
+            } catch { CountryYieldHolder._INSTANCE.selected_country_yield = 0; } // set no yield
+            try { // Get name from lookat country
+                CountryNameHolder._INSTANCE.selected_country_name = "Location: " + 
+                    hit.transform.GetChild(0).GetComponent<CountryDataLoader>().c_name;
+            } catch { CountryNameHolder._INSTANCE.selected_country_name = "Location: none"; }
 
 
             // Scrolling line to aim towards country being aimed at
