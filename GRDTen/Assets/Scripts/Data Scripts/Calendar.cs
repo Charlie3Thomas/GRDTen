@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Calendar : MonoBehaviour
 {
+    [SerializeField] private Canvas calendar_ui;
     public static Calendar instance;
     public int year = 1961;
     private int minYear = 1961;
@@ -37,8 +38,9 @@ public class Calendar : MonoBehaviour
         year--;
     }
 
-    private void Start()
+    private void OnEnable()
     {
-        year = Random.Range(minYear, maxYear);
+        //year = Random.Range(minYear, maxYear);
+        year = 1997;
     }
 }
