@@ -136,4 +136,17 @@ public class CropDataContainer : MonoBehaviour
         catch { Debug.LogWarning(_coutnry_name + " has no" + _crop + " in the year " + _production_year); return -99; }
         //Debug.Log(data);
     }
+
+    //private void Start()
+    //{
+        
+    //    //GetHighestProductionFor();
+    //}
+
+    //public void GetHighestProductionFor(string _crop, string _coutnry_name, int _production_year)
+    //{
+    //    long higest_prod_value = 0;
+
+    //    Debug.Log(crops[_crop][_coutnry_name][_production_year]);
+    //}
 }
