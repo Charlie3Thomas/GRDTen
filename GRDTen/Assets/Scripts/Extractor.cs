@@ -31,8 +31,10 @@ public class Extractor : MonoBehaviour
         {
             if(other.transform.GetComponent<CountryTempsAndOutlines>().GetHighlighed())
             {
-                if(other.transform.childCount > 0)
+                if (other.transform.childCount > 0)
                     pl.amount = (other.transform.GetChild(0).GetComponent<CountryDataLoader>().GetCropDataInTime(CropSelectionManager.instance.GetCurrentCrop().name, Calendar.instance.year));
+                else
+                    pl.amount = 0;
 
                 Instantiate(pl.transform.gameObject, other.contacts[0].point, Quaternion.FromToRotation(transform.forward, other.contacts[0].normal));
             }

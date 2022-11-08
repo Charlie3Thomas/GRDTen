@@ -5,6 +5,7 @@ using UnityEngine;
 public class PhysicsBody : MonoBehaviour
 {
     [SerializeField] private GameObject theSuck;
+    private GameObject collectableManager;
     private Rigidbody rb;
     private bool inOrbit = false;
     private bool getSucked = false;
@@ -17,6 +18,7 @@ public class PhysicsBody : MonoBehaviour
         earth = GameObject.FindGameObjectWithTag("Earth");
         orbit1 = GameObject.FindGameObjectWithTag("Orbit1").GetComponent<MeshCollider>();
         theSuck = GameObject.FindGameObjectWithTag("MotherShip");
+        collectableManager = GameObject.FindGameObjectWithTag("CollectableManager");
         gameObject.layer = LayerMask.NameToLayer("Non-Orbital");
     }
 
@@ -25,9 +27,9 @@ public class PhysicsBody : MonoBehaviour
     {
         if(transform.parent != null)
         {
-            if (Input.GetKeyDown(KeyCode.R) || transform.parent.childCount >= 2500)
+            if (Input.GetKeyDown(KeyCode.R) || transform.parent.childCount >= 1800)
             {
-                transform.parent = null;
+                transform.parent = collectableManager.transform;
                 gameObject.layer = LayerMask.NameToLayer("Collecting");
                 getSucked = true;
             }
@@ -50,6 +52,19 @@ public class PhysicsBody : MonoBehaviour
         if (!getSucked)
             return;
 
+        StartCoroutine(Sucking());
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.layer == LayerMask.NameToLayer("MotherShip"))
+            Destroy(gameObject);
+    }
+
+    IEnumerator Sucking()
+    {
+        yield return new WaitForSeconds(0.5f);
+
         getSucked = false;
 
         if (theSuck != null && rb != null)
@@ -58,11 +73,7 @@ public class PhysicsBody : MonoBehaviour
             Vector3 toTheSuck = (theSuck.transform.position - gameObject.transform.position).normalized;
             rb.AddForce(toTheSuck * 4000, ForceMode.Force);
         }
-    }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.CompareTag("MotherShip"))
-            Destroy(gameObject);
+        yield return null;
     }
 }
