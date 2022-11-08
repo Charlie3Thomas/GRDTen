@@ -47,6 +47,33 @@ public class PlayerController : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, country))
         {
+            try
+            {
+                CountryTempHolder._INSTANCE.selected_country_temp = hit.transform.GetComponent<CountryTempsAndOutlines>().GetTemp();
+            }catch
+            {
+                CountryTempHolder._INSTANCE.selected_country_temp = 0.0f;
+            }
+            try
+            {
+                CountryYieldHolder._INSTANCE.selected_country_yield = hit.transform.GetChild(0).GetComponent<CountryDataLoader>().
+                                    GetCropDataInTime(CropSelectionManager.instance.GetCurrentCrop().name, Calendar.instance.year);
+                if (CountryYieldHolder._INSTANCE.selected_country_yield == -99)
+                    CountryYieldHolder._INSTANCE.selected_country_yield = 0;
+            }
+            catch
+            {
+                CountryYieldHolder._INSTANCE.selected_country_yield = 0;
+            }
+            try
+            {
+                CountryNameHolder._INSTANCE.selected_country_name = "Location: " + hit.transform.GetChild(0).GetComponent<CountryDataLoader>().c_name;
+            }catch
+            {
+                CountryNameHolder._INSTANCE.selected_country_name = "Location: none";
+            }
+
+
             // Scrolling line to aim towards country being aimed at
             lr.enabled = true;
             lr.SetPosition(0, orientation.position);
@@ -66,7 +93,8 @@ public class PlayerController : MonoBehaviour
 
                 hit.transform.GetComponent<CountryTempsAndOutlines>().GetOutlineMat().SetInt("_isHighlighted", 1);
                 Debug.Log(hit.transform.GetComponent<CountryTempsAndOutlines>().GetTemp());
-                if(hit.transform.childCount > 0)
+                
+                if (hit.transform.childCount > 0)
                     hit.transform.GetChild(0).GetComponent<CountryDataLoader>().GetCropDataInTime(CropSelectionManager.instance.GetCurrentCrop().name, Calendar.instance.year);
 
                 prevCountry = hit.transform.gameObject;
