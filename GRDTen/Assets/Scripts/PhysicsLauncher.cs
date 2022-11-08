@@ -8,7 +8,7 @@ public class PhysicsLauncher : MonoBehaviour
 
     [SerializeField] private GameObject physicsObject;
     [SerializeField] private GameObject physicsObjectManager;
-    private float scaleModifier = 0.5f;
+    private float scaleModifier = 1.0f;
     public long amount = 0;
     private float spread = 25.0f;
     private float timer = 0.0f;
@@ -51,7 +51,7 @@ public class PhysicsLauncher : MonoBehaviour
         }
         else if(actualAmount > 10000)
         {
-            scaleModifier = 4f;
+            scaleModifier = 3f;
             actualAmount /= 100;
         }
 
