@@ -7,7 +7,7 @@ public class PlayGUIYear : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI gui_year;
 
-    void LateUpdate()
+    void Update()
     {
         if (gui_year != null)
         {
