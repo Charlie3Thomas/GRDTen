@@ -20,6 +20,7 @@ public class EarthOrbit : MonoBehaviour
 
     void Update()
     {
+        if (Time.timeScale == 0) {  return; }
         rotSpeed = Mathf.Clamp(rotSpeed, minValue, maxValue);
         transform.Rotate(0, rotSpeed, 0);
         AffectYear();
