@@ -25,7 +25,7 @@ public class PhysicsLauncher : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        physicsObjectManager = GameObject.Find("PhysicsObjectManager");
+        physicsObjectManager = GameObject.FindGameObjectWithTag("PhysicsObjectManager");
         StartCoroutine(ShootObjects());
     }
 
