@@ -22,6 +22,10 @@ public class EarthOrbit : MonoBehaviour
     {
         rotSpeed = Mathf.Clamp(rotSpeed, minValue, maxValue);
         transform.Rotate(0, rotSpeed, 0);
+        AffectYear();
+
+        if (PlayerInputManager.instance == null)
+            return;
 
         if (PlayerInputManager.instance.fastForward)
         {
@@ -46,8 +50,6 @@ public class EarthOrbit : MonoBehaviour
             if (minValue == -5f && maxValue == 0f)
                 rotSpeed += Time.deltaTime * 5f;
         }
-
-        AffectYear();
     }
 
     void AffectYear()
@@ -61,6 +63,9 @@ public class EarthOrbit : MonoBehaviour
             curAngleY += ang;
             lastFwd = curFwd;
         }
+
+        if (Calendar.instance == null)
+            return;
 
         if(curAngleY <= -360)
         {
