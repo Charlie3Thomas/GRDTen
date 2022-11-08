@@ -15,7 +15,7 @@ public class PlayGUICropDD : MonoBehaviour
       "Cashews",
       "Cassava",
       "Cereals",
-      "Bocoa Beans",
+      "Cocoa Beans",
       "Coffee Beans",
       "Grapes",
       "Maize",
