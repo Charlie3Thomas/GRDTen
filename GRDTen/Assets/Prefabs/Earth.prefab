@@ -113,6 +113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &166002957899683505
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,6 +227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &224030968474678418
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,6 +341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &237752277340571876
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,6 +455,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &303222855508008165
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,6 +569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &335946651106042753
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,6 +683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &336595491566153732
 GameObject:
   m_ObjectHideFlags: 0
@@ -791,6 +797,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &400547063187562894
 GameObject:
   m_ObjectHideFlags: 0
@@ -904,6 +911,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &432661854632861410
 GameObject:
   m_ObjectHideFlags: 0
@@ -1017,6 +1025,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &468938373521029966
 GameObject:
   m_ObjectHideFlags: 0
@@ -1130,6 +1139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &545853312555326048
 GameObject:
   m_ObjectHideFlags: 0
@@ -1243,6 +1253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &625754836066903649
 GameObject:
   m_ObjectHideFlags: 0
@@ -1356,6 +1367,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &628451624192067044
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,6 +1481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &676044348663701350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1582,6 +1595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &727580574743305572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,6 +1709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &731314429684190505
 GameObject:
   m_ObjectHideFlags: 0
@@ -1808,6 +1823,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &733420252546338787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1921,6 +1937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &738791369614521709
 GameObject:
   m_ObjectHideFlags: 0
@@ -2034,6 +2051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &786866482652252724
 GameObject:
   m_ObjectHideFlags: 0
@@ -2373,6 +2391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &851726110437029164
 GameObject:
   m_ObjectHideFlags: 0
@@ -2486,6 +2505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &861820689004397903
 GameObject:
   m_ObjectHideFlags: 0
@@ -2599,6 +2619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &913937497154019611
 GameObject:
   m_ObjectHideFlags: 0
@@ -2712,6 +2733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &954188828653734269
 GameObject:
   m_ObjectHideFlags: 0
@@ -2743,7 +2765,8 @@ Transform:
   m_LocalPosition: {x: 0.033716686, y: 0.001966538, z: 0.016885286}
   m_LocalScale: {x: 23.391947, y: 12.997574, z: 12.997574}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 435825831324321303}
   m_Father: {fileID: 117184064780652686}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2825,6 +2848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &1016066826302484228
 GameObject:
   m_ObjectHideFlags: 0
@@ -2938,6 +2962,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &1102200782455213982
 GameObject:
   m_ObjectHideFlags: 0
@@ -3051,6 +3076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &1185432548252742625
 GameObject:
   m_ObjectHideFlags: 0
@@ -3164,6 +3190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &1271238836853206605
 GameObject:
   m_ObjectHideFlags: 0
@@ -3277,6 +3304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &1288854702628141768
 GameObject:
   m_ObjectHideFlags: 0
@@ -3390,6 +3418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &1338864928961506165
 GameObject:
   m_ObjectHideFlags: 0
@@ -3503,6 +3532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &1397465290545183677
 GameObject:
   m_ObjectHideFlags: 0
@@ -3616,6 +3646,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
+--- !u!1 &1415784848297770513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 52950164388840983}
+  m_Layer: 6
+  m_Name: French Southern Territories
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &52950164388840983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415784848297770513}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1808866156058167477}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1549122366976734141
 GameObject:
   m_ObjectHideFlags: 0
@@ -3729,6 +3791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &1567993266776174175
 GameObject:
   m_ObjectHideFlags: 0
@@ -3842,6 +3905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &1652108524092000506
 GameObject:
   m_ObjectHideFlags: 0
@@ -3955,6 +4019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &1708083001409184709
 GameObject:
   m_ObjectHideFlags: 0
@@ -4068,6 +4133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &1782177479263173497
 GameObject:
   m_ObjectHideFlags: 0
@@ -4181,6 +4247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &1787703015751833947
 GameObject:
   m_ObjectHideFlags: 0
@@ -4294,6 +4361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &1838503209229472965
 GameObject:
   m_ObjectHideFlags: 0
@@ -4407,6 +4475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &1839844641635763625
 GameObject:
   m_ObjectHideFlags: 0
@@ -4520,6 +4589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &1848568234024912473
 GameObject:
   m_ObjectHideFlags: 0
@@ -4633,6 +4703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &1943795910518140762
 GameObject:
   m_ObjectHideFlags: 0
@@ -4746,6 +4817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &1991488477875104485
 GameObject:
   m_ObjectHideFlags: 0
@@ -4859,6 +4931,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2040920621525547791
 GameObject:
   m_ObjectHideFlags: 0
@@ -4972,6 +5045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2064192158004070124
 GameObject:
   m_ObjectHideFlags: 0
@@ -5085,6 +5159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2089467298493310119
 GameObject:
   m_ObjectHideFlags: 0
@@ -5198,6 +5273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2135101080677919372
 GameObject:
   m_ObjectHideFlags: 0
@@ -5311,6 +5387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2151129773226379493
 GameObject:
   m_ObjectHideFlags: 0
@@ -5424,6 +5501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2153539452611950384
 GameObject:
   m_ObjectHideFlags: 0
@@ -5537,6 +5615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2230813821649504192
 GameObject:
   m_ObjectHideFlags: 0
@@ -5650,6 +5729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2244670743770646444
 GameObject:
   m_ObjectHideFlags: 0
@@ -5763,6 +5843,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2275848187539119715
 GameObject:
   m_ObjectHideFlags: 0
@@ -5876,6 +5957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2306992499955386602
 GameObject:
   m_ObjectHideFlags: 0
@@ -5989,6 +6071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2317446032349996714
 GameObject:
   m_ObjectHideFlags: 0
@@ -6020,7 +6103,8 @@ Transform:
   m_LocalPosition: {x: 0.033716686, y: 0.001966538, z: 0.016885286}
   m_LocalScale: {x: 23.391947, y: 12.997574, z: 12.997574}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 190908446639923299}
   m_Father: {fileID: 117184064780652686}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6102,6 +6186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2322891351468264795
 GameObject:
   m_ObjectHideFlags: 0
@@ -21284,6 +21369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2400356862718310937
 GameObject:
   m_ObjectHideFlags: 0
@@ -21397,6 +21483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2404631895827586365
 GameObject:
   m_ObjectHideFlags: 0
@@ -21510,6 +21597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2415933147848802179
 GameObject:
   m_ObjectHideFlags: 0
@@ -21623,6 +21711,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2420156159234754066
 GameObject:
   m_ObjectHideFlags: 0
@@ -21736,6 +21825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2422130668197922887
 GameObject:
   m_ObjectHideFlags: 0
@@ -21849,6 +21939,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2457658975840948151
 GameObject:
   m_ObjectHideFlags: 0
@@ -21962,6 +22053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2483846889728667142
 GameObject:
   m_ObjectHideFlags: 0
@@ -22075,6 +22167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2604907325502045358
 GameObject:
   m_ObjectHideFlags: 0
@@ -22188,6 +22281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2625079847380211528
 GameObject:
   m_ObjectHideFlags: 0
@@ -22301,6 +22395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2682640275640792146
 GameObject:
   m_ObjectHideFlags: 0
@@ -22414,6 +22509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2741378500497724803
 GameObject:
   m_ObjectHideFlags: 0
@@ -22445,7 +22541,8 @@ Transform:
   m_LocalPosition: {x: 0.034618616, y: 0.0010576932, z: 0.004524896}
   m_LocalScale: {x: 24.375448, y: 6.29984, z: 7.425371}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1960952539349924240}
   m_Father: {fileID: 117184064780652686}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22527,6 +22624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2744493726285217797
 GameObject:
   m_ObjectHideFlags: 0
@@ -22640,6 +22738,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2769009476360740830
 GameObject:
   m_ObjectHideFlags: 0
@@ -22753,6 +22852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2929117108705445748
 GameObject:
   m_ObjectHideFlags: 0
@@ -22866,6 +22966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &2989824930127593161
 GameObject:
   m_ObjectHideFlags: 0
@@ -22979,6 +23080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &3122573483416252906
 GameObject:
   m_ObjectHideFlags: 0
@@ -23092,6 +23194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &3369803560634257945
 GameObject:
   m_ObjectHideFlags: 0
@@ -23123,7 +23226,8 @@ Transform:
   m_LocalPosition: {x: 0.033716686, y: 0.001966538, z: 0.016885286}
   m_LocalScale: {x: 23.391947, y: 12.997574, z: 12.997574}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7404494818396043216}
   m_Father: {fileID: 117184064780652686}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23205,6 +23309,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
+--- !u!1 &3417896043289479348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824554707558547240}
+  m_Layer: 6
+  m_Name: Western Sahara
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824554707558547240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3417896043289479348}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8677171292450025717}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3453771418562777413
 GameObject:
   m_ObjectHideFlags: 0
@@ -23318,6 +23454,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &3494612863486621668
 GameObject:
   m_ObjectHideFlags: 0
@@ -23431,6 +23568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &3531150630345191416
 GameObject:
   m_ObjectHideFlags: 0
@@ -23544,6 +23682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &3616092712429692023
 GameObject:
   m_ObjectHideFlags: 0
@@ -23657,6 +23796,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &3744122834859667206
 GameObject:
   m_ObjectHideFlags: 0
@@ -23712,6 +23852,37 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4711208715938537054, guid: 8be2b196009d1cd4bbf2e028c9b0d6da, type: 3}
+--- !u!1 &3758596892741761453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 435825831324321303}
+  m_Layer: 6
+  m_Name: Falkland Islands (Islas Malvinas)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &435825831324321303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3758596892741761453}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1184593807655823043}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3814062484119353601
 GameObject:
   m_ObjectHideFlags: 0
@@ -23825,6 +23996,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &3840630270718072203
 GameObject:
   m_ObjectHideFlags: 0
@@ -23938,6 +24110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &3959651696805791042
 GameObject:
   m_ObjectHideFlags: 0
@@ -24051,6 +24224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4156384636811718015
 GameObject:
   m_ObjectHideFlags: 0
@@ -24164,6 +24338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4163972488517536864
 GameObject:
   m_ObjectHideFlags: 0
@@ -24277,6 +24452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4203179800315641584
 GameObject:
   m_ObjectHideFlags: 0
@@ -24390,6 +24566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4285189012460474622
 GameObject:
   m_ObjectHideFlags: 0
@@ -24503,6 +24680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4309484726660686149
 GameObject:
   m_ObjectHideFlags: 0
@@ -24616,6 +24794,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4358502745077589836
 GameObject:
   m_ObjectHideFlags: 0
@@ -24729,6 +24908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4366263304013204193
 GameObject:
   m_ObjectHideFlags: 0
@@ -24842,6 +25022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4394033724193404636
 GameObject:
   m_ObjectHideFlags: 0
@@ -24955,6 +25136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4416233840938968898
 GameObject:
   m_ObjectHideFlags: 0
@@ -25068,6 +25250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4424266951815189698
 GameObject:
   m_ObjectHideFlags: 0
@@ -25181,6 +25364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4585442404162897623
 GameObject:
   m_ObjectHideFlags: 0
@@ -25294,6 +25478,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4603893649172781133
 GameObject:
   m_ObjectHideFlags: 0
@@ -25407,6 +25592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4648597701583301268
 GameObject:
   m_ObjectHideFlags: 0
@@ -25520,6 +25706,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4685093974864593561
 GameObject:
   m_ObjectHideFlags: 0
@@ -25633,6 +25820,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4736869976966549504
 GameObject:
   m_ObjectHideFlags: 0
@@ -25746,6 +25934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4783688210066478161
 GameObject:
   m_ObjectHideFlags: 0
@@ -25859,6 +26048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4807664035289445241
 GameObject:
   m_ObjectHideFlags: 0
@@ -25972,6 +26162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4824110987157615837
 GameObject:
   m_ObjectHideFlags: 0
@@ -26003,7 +26194,8 @@ Transform:
   m_LocalPosition: {x: 0.033716686, y: 0.001966538, z: 0.016885286}
   m_LocalScale: {x: 23.391947, y: 12.997574, z: 12.997574}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 52950164388840983}
   m_Father: {fileID: 117184064780652686}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -26085,6 +26277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4846282722969759322
 GameObject:
   m_ObjectHideFlags: 0
@@ -26198,6 +26391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4885947895674095446
 GameObject:
   m_ObjectHideFlags: 0
@@ -26311,6 +26505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4911831963244052631
 GameObject:
   m_ObjectHideFlags: 0
@@ -26424,6 +26619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4937699620672336202
 GameObject:
   m_ObjectHideFlags: 0
@@ -26537,6 +26733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4964341448674301691
 GameObject:
   m_ObjectHideFlags: 0
@@ -26650,6 +26847,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &4978483664869331188
 GameObject:
   m_ObjectHideFlags: 0
@@ -26763,6 +26961,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &5008127805057995461
 GameObject:
   m_ObjectHideFlags: 0
@@ -26876,6 +27075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &5093252791245887386
 GameObject:
   m_ObjectHideFlags: 0
@@ -26989,6 +27189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &5128039013487607527
 GameObject:
   m_ObjectHideFlags: 0
@@ -27102,6 +27303,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &5192590717396111753
 GameObject:
   m_ObjectHideFlags: 0
@@ -27215,6 +27417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &5293225088905310373
 GameObject:
   m_ObjectHideFlags: 0
@@ -27328,6 +27531,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
+--- !u!1 &5617270840421401443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 190908446639923299}
+  m_Layer: 6
+  m_Name: Kosovo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &190908446639923299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5617270840421401443}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8384104191209617875}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5618023664206853961
 GameObject:
   m_ObjectHideFlags: 0
@@ -27441,6 +27676,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &5677892202255134974
 GameObject:
   m_ObjectHideFlags: 0
@@ -27554,6 +27790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &5761771165253466208
 GameObject:
   m_ObjectHideFlags: 0
@@ -27667,6 +27904,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &5799849624938563570
 GameObject:
   m_ObjectHideFlags: 0
@@ -27780,6 +28018,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &5865518144319065924
 GameObject:
   m_ObjectHideFlags: 0
@@ -27893,6 +28132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &5874281499796136734
 GameObject:
   m_ObjectHideFlags: 0
@@ -28006,6 +28246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &5892216079054294698
 GameObject:
   m_ObjectHideFlags: 0
@@ -28037,7 +28278,8 @@ Transform:
   m_LocalPosition: {x: 0.033716686, y: 0.001966538, z: 0.016885286}
   m_LocalScale: {x: 23.391947, y: 12.997574, z: 12.997574}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5824554707558547240}
   m_Father: {fileID: 117184064780652686}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -28119,6 +28361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &5903970564737609230
 GameObject:
   m_ObjectHideFlags: 0
@@ -28232,6 +28475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &5918186727517934025
 GameObject:
   m_ObjectHideFlags: 0
@@ -28345,6 +28589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &5934753682430530386
 GameObject:
   m_ObjectHideFlags: 0
@@ -28458,6 +28703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &5950280798833010661
 GameObject:
   m_ObjectHideFlags: 0
@@ -28571,6 +28817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &5951113221952878749
 GameObject:
   m_ObjectHideFlags: 0
@@ -28684,6 +28931,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &5997630920894588435
 GameObject:
   m_ObjectHideFlags: 0
@@ -28797,6 +29045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &6026239162610883707
 GameObject:
   m_ObjectHideFlags: 0
@@ -28910,6 +29159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &6028337932779195898
 GameObject:
   m_ObjectHideFlags: 0
@@ -29023,6 +29273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &6049532795623625282
 GameObject:
   m_ObjectHideFlags: 0
@@ -29136,6 +29387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &6223086359661787176
 GameObject:
   m_ObjectHideFlags: 0
@@ -29249,6 +29501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &6363687240813710571
 GameObject:
   m_ObjectHideFlags: 0
@@ -29362,6 +29615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &6460772189262270245
 GameObject:
   m_ObjectHideFlags: 0
@@ -29475,6 +29729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &6494361790687402128
 GameObject:
   m_ObjectHideFlags: 0
@@ -29588,6 +29843,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &6510669458625523829
 GameObject:
   m_ObjectHideFlags: 0
@@ -29701,6 +29957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &6513127670041766042
 GameObject:
   m_ObjectHideFlags: 0
@@ -29814,6 +30071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &6513892578693495380
 GameObject:
   m_ObjectHideFlags: 0
@@ -29927,6 +30185,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
+--- !u!1 &6580492259941907348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7404494818396043216}
+  m_Layer: 6
+  m_Name: Svalbard and Jan Mayen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7404494818396043216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6580492259941907348}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2846763392188423599}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6610065305214941773
 GameObject:
   m_ObjectHideFlags: 0
@@ -30040,6 +30330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &6637979686553125526
 GameObject:
   m_ObjectHideFlags: 0
@@ -30153,6 +30444,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
+--- !u!1 &6665721922096061721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1960952539349924240}
+  m_Layer: 6
+  m_Name: Antarctica
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1960952539349924240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6665721922096061721}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7489559799325848123}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6743426868801901537
 GameObject:
   m_ObjectHideFlags: 0
@@ -30266,6 +30589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &6861292711596352613
 GameObject:
   m_ObjectHideFlags: 0
@@ -30379,6 +30703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &6941797871563284557
 GameObject:
   m_ObjectHideFlags: 0
@@ -30492,6 +30817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &6963655105020821522
 GameObject:
   m_ObjectHideFlags: 0
@@ -30523,7 +30849,8 @@ Transform:
   m_LocalPosition: {x: 0.033716686, y: 0.001966538, z: 0.016885286}
   m_LocalScale: {x: 23.391947, y: 12.997574, z: 12.997574}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6106568570868593}
   m_Father: {fileID: 117184064780652686}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -30605,6 +30932,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &7061546928486973317
 GameObject:
   m_ObjectHideFlags: 0
@@ -30718,6 +31046,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &7081580071920447660
 GameObject:
   m_ObjectHideFlags: 0
@@ -30831,6 +31160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &7169700288974056690
 GameObject:
   m_ObjectHideFlags: 0
@@ -30944,6 +31274,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &7397433717549367687
 GameObject:
   m_ObjectHideFlags: 0
@@ -31057,6 +31388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &7439604783643069828
 GameObject:
   m_ObjectHideFlags: 0
@@ -31170,6 +31502,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
+--- !u!1 &7489624163661765207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6106568570868593}
+  m_Layer: 6
+  m_Name: Greenland
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6106568570868593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489624163661765207}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5209270641447644521}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7496040927130196871
 GameObject:
   m_ObjectHideFlags: 0
@@ -31283,6 +31647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &7531797454920767042
 GameObject:
   m_ObjectHideFlags: 0
@@ -31396,6 +31761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &7559030810338347385
 GameObject:
   m_ObjectHideFlags: 0
@@ -31509,6 +31875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &7619532871609202284
 GameObject:
   m_ObjectHideFlags: 0
@@ -31622,6 +31989,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &7625533500717212597
 GameObject:
   m_ObjectHideFlags: 0
@@ -31735,6 +32103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &7658134050740098856
 GameObject:
   m_ObjectHideFlags: 0
@@ -31848,6 +32217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &7744731733091969147
 GameObject:
   m_ObjectHideFlags: 0
@@ -31961,6 +32331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &7748615818533527821
 GameObject:
   m_ObjectHideFlags: 0
@@ -32074,6 +32445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &7831503781770586705
 GameObject:
   m_ObjectHideFlags: 0
@@ -32187,6 +32559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &7994892901596006127
 GameObject:
   m_ObjectHideFlags: 0
@@ -32300,6 +32673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &7997130667157192617
 GameObject:
   m_ObjectHideFlags: 0
@@ -32413,6 +32787,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &8124920412149262449
 GameObject:
   m_ObjectHideFlags: 0
@@ -32526,6 +32901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &8142003112534818861
 GameObject:
   m_ObjectHideFlags: 0
@@ -32639,6 +33015,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &8194207679590312169
 GameObject:
   m_ObjectHideFlags: 0
@@ -32752,6 +33129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &8276456561650397668
 GameObject:
   m_ObjectHideFlags: 0
@@ -32865,6 +33243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &8291003917247880641
 GameObject:
   m_ObjectHideFlags: 0
@@ -32978,6 +33357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &8341820731000065614
 GameObject:
   m_ObjectHideFlags: 0
@@ -33091,6 +33471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &8377233873571046760
 GameObject:
   m_ObjectHideFlags: 0
@@ -33204,6 +33585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &8416795886487441469
 GameObject:
   m_ObjectHideFlags: 0
@@ -33317,6 +33699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &8466410825529657256
 GameObject:
   m_ObjectHideFlags: 0
@@ -33430,6 +33813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &8504341200061700454
 GameObject:
   m_ObjectHideFlags: 0
@@ -33543,6 +33927,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &8510850903747600757
 GameObject:
   m_ObjectHideFlags: 0
@@ -33656,6 +34041,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &8609872692673227983
 GameObject:
   m_ObjectHideFlags: 0
@@ -33769,6 +34155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &8618803161885230433
 GameObject:
   m_ObjectHideFlags: 0
@@ -33882,6 +34269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &8656164543205614925
 GameObject:
   m_ObjectHideFlags: 0
@@ -33995,6 +34383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &8691245659830733304
 GameObject:
   m_ObjectHideFlags: 0
@@ -34108,6 +34497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &8793187111529695888
 GameObject:
   m_ObjectHideFlags: 0
@@ -34221,6 +34611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &8986064546601871688
 GameObject:
   m_ObjectHideFlags: 0
@@ -34334,6 +34725,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &9019717039970192714
 GameObject:
   m_ObjectHideFlags: 0
@@ -34447,6 +34839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &9027979361886854948
 GameObject:
   m_ObjectHideFlags: 0
@@ -34560,6 +34953,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &9051415474601584924
 GameObject:
   m_ObjectHideFlags: 0
@@ -34673,6 +35067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &9081989681221261142
 GameObject:
   m_ObjectHideFlags: 0
@@ -34786,6 +35181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &9117762551799320046
 GameObject:
   m_ObjectHideFlags: 0
@@ -34899,6 +35295,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &9135435451339795571
 GameObject:
   m_ObjectHideFlags: 0
@@ -35012,6 +35409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &9180986167465906578
 GameObject:
   m_ObjectHideFlags: 0
@@ -35125,6 +35523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &9183479529672219625
 GameObject:
   m_ObjectHideFlags: 0
@@ -35238,6 +35637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
 --- !u!1 &9185318577170567405
 GameObject:
   m_ObjectHideFlags: 0
@@ -35351,3 +35751,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlines: {fileID: 2322891352312755433}
   td: {fileID: 0}
+  inMenu: 0
