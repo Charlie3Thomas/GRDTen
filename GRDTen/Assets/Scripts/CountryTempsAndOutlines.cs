@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CountryTempsAndOutlines : MonoBehaviour
 {
@@ -57,8 +59,13 @@ public class CountryTempsAndOutlines : MonoBehaviour
     public float GetTemp()
     {
         if (transform.childCount > 0)
-            return td.GetDataForCountry(transform.GetChild(0).name, Calendar.instance.year);
+        {
+            float temp = td.GetDataForCountry(transform.GetChild(0).name, Calendar.instance.year);
+            return temp;
+        }
         else
+        {
             return -99f;
+        }
     }
 }
