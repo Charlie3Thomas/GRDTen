@@ -85,7 +85,8 @@ public class PlayerController : MonoBehaviour
                 Debug.Log(hit.transform.GetComponent<CountryTempsAndOutlines>().GetTemp());
                 
                 if (hit.transform.childCount > 0)
-                    hit.transform.GetChild(0).GetComponent<CountryDataLoader>().GetCropDataInTime(CropSelectionManager.instance.GetCurrentCrop().name, Calendar.instance.year);
+                    if(hit.transform.GetChild(0).GetComponent<CountryDataLoader>() != null)
+                        hit.transform.GetChild(0).GetComponent<CountryDataLoader>().GetCropDataInTime(CropSelectionManager.instance.GetCurrentCrop().name, Calendar.instance.year);
 
                 prevCountry = hit.transform.gameObject;
             }
