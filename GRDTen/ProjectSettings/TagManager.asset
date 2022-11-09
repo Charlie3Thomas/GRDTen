@@ -3,22 +3,29 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Model
+  - Orbit2
+  - Earth
+  - Orbit1
+  - MotherShip
+  - Calendar
+  - CropData
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Country
+  - Non-Orbital
+  - Orbital
+  - Orbit
+  - Collecting
+  - Extractor
+  - MotherShip
+  - SceneBorders
   - 
   - 
   - 
