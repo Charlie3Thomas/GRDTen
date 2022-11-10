@@ -11,12 +11,16 @@ public class PhysicsBody : MonoBehaviour
     private bool getSucked = false;
     private GameObject earth;
     private MeshCollider orbit1;
+    private MeshCollider orbit3;
+    private MeshCollider orbit5;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         earth = GameObject.FindGameObjectWithTag("Earth");
         orbit1 = GameObject.FindGameObjectWithTag("Orbit1").GetComponent<MeshCollider>();
+        orbit3 = GameObject.FindGameObjectWithTag("Orbit3").GetComponent<MeshCollider>();
+        orbit5 = GameObject.FindGameObjectWithTag("Orbit5").GetComponent<MeshCollider>();
         theSuck = GameObject.FindGameObjectWithTag("MotherShip");
         collectableManager = GameObject.FindGameObjectWithTag("CollectableManager");
         gameObject.layer = LayerMask.NameToLayer("Non-Orbital");
@@ -38,13 +42,7 @@ public class PhysicsBody : MonoBehaviour
         if (inOrbit)
             return;
 
-        if(Vector3.Distance(transform.position, earth.transform.position) > 
-            (orbit1.bounds.extents.x / (orbit1.transform.localScale.x / 2))
-            && gameObject.layer != LayerMask.NameToLayer("Collecting"))
-        {
-            gameObject.layer = LayerMask.NameToLayer("Orbital");
-            inOrbit = true;
-        }
+        Orbiting();
     }
 
     void FixedUpdate()
@@ -53,6 +51,40 @@ public class PhysicsBody : MonoBehaviour
             return;
 
         StartCoroutine(Sucking());
+    }
+
+    void Orbiting()
+    {
+        if (transform.localScale.x == 1)
+        {
+            if (Vector3.Distance(transform.position, earth.transform.position) >
+            (orbit1.bounds.extents.x / (orbit1.transform.localScale.x / 2))
+            && gameObject.layer != LayerMask.NameToLayer("Collecting"))
+            {
+                gameObject.layer = LayerMask.NameToLayer("Orbital1");
+                inOrbit = true;
+            }
+        }
+        if (transform.localScale.x == 2)
+        {
+            if (Vector3.Distance(transform.position, earth.transform.position) >
+            (orbit3.bounds.extents.x / (orbit3.transform.localScale.x / 2))
+            && gameObject.layer != LayerMask.NameToLayer("Collecting"))
+            {
+                gameObject.layer = LayerMask.NameToLayer("Orbital2");
+                inOrbit = true;
+            }
+        }
+        if (transform.localScale.x == 3)
+        {
+            if (Vector3.Distance(transform.position, earth.transform.position) >
+            (orbit5.bounds.extents.x / (orbit5.transform.localScale.x / 2))
+            && gameObject.layer != LayerMask.NameToLayer("Collecting"))
+            {
+                gameObject.layer = LayerMask.NameToLayer("Orbital3");
+                inOrbit = true;
+            }
+        }
     }
 
     private void OnTriggerEnter(Collider other)

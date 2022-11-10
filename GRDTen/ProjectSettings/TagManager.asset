@@ -11,6 +11,12 @@ TagManager:
   - MotherShip
   - Calendar
   - CropData
+  - CollectableManager
+  - PhysicsObjectManager
+  - Orbit3
+  - Orbit4
+  - Orbit5
+  - Orbit6
   layers:
   - Default
   - TransparentFX
@@ -20,16 +26,16 @@ TagManager:
   - UI
   - Country
   - Non-Orbital
-  - Orbital
-  - Orbit
+  - Orbital1
+  - Orbit1
   - Collecting
   - Extractor
   - MotherShip
   - SceneBorders
-  - 
-  - 
-  - 
-  - 
+  - Orbit2
+  - Orbit3
+  - Orbital2
+  - Orbital3
   - 
   - 
   - 
