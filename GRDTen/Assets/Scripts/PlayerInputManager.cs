@@ -35,7 +35,7 @@ public class PlayerInputManager : MonoBehaviour
     {
         inputX = Input.GetAxis("Horizontal");
         inputY = Input.GetAxis("Vertical");
-        fireRay = Input.GetKeyDown(KeyCode.Mouse0);
+        fireRay = Input.GetKey(KeyCode.Mouse0);
         chargeShot = Input.GetKey(KeyCode.Mouse0);
         release = Input.GetKeyUp(KeyCode.Mouse0);
         flyUp = Input.GetKey(KeyCode.Space);
