@@ -6229,6 +6229,7 @@ GameObject:
   - component: {fileID: 503988192}
   - component: {fileID: 503988193}
   - component: {fileID: 503988194}
+  - component: {fileID: 503988195}
   m_Layer: 12
   m_Name: TheSuck
   m_TagString: MotherShip
@@ -6284,6 +6285,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f13582c184509843b70a8563de578ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &503988195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503988191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1135785570
+      Data2: 1152782207
+      Data3: 34281145
+      Data4: -174866179
+    Path: event:/SFX/Black Hole
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 150
 --- !u!1 &518495534
 GameObject:
   m_ObjectHideFlags: 0
@@ -26260,6 +26291,14 @@ MonoBehaviour:
         Data3: 1423693491
         Data4: 328748650
       Path: event:/SFX/WaterSplash
+  - Name: Slurp
+    sfxPath:
+      Guid:
+        Data1: 13414597
+        Data2: 1284702194
+        Data3: -967787124
+        Data4: 560759348
+      Path: event:/SFX/Slurp
 --- !u!1001 &2322891352102572801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26363,10 +26402,6 @@ PrefabInstance:
     - target: {fileID: 1016066826302484228, guid: 09f198b280a73d548aa29d8bc5ebeb9a, type: 3}
       propertyPath: m_TagString
       value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 1085861020519528984, guid: 09f198b280a73d548aa29d8bc5ebeb9a, type: 3}
-      propertyPath: m_Convex
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1102200782455213982, guid: 09f198b280a73d548aa29d8bc5ebeb9a, type: 3}
       propertyPath: m_TagString
@@ -27150,18 +27185,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2322891353449366060, guid: 09f198b280a73d548aa29d8bc5ebeb9a, type: 3}
       propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2322891353449366060, guid: 09f198b280a73d548aa29d8bc5ebeb9a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2322891353449366060, guid: 09f198b280a73d548aa29d8bc5ebeb9a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2322891353449366060, guid: 09f198b280a73d548aa29d8bc5ebeb9a, type: 3}
-      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2322891353449366060, guid: 09f198b280a73d548aa29d8bc5ebeb9a, type: 3}

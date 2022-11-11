@@ -91,7 +91,10 @@ public class PhysicsBody : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.layer == LayerMask.NameToLayer("MotherShip"))
+        {
+            AudioManager.Instance.PlayOneShotWithParameters("Slurp", transform);
             Destroy(gameObject);
+        }
     }
 
     IEnumerator Sucking()
