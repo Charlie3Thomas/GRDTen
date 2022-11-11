@@ -1,5 +1,124 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &446533607476018429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2979351176364918440}
+  - component: {fileID: 380403188424058030}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2979351176364918440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446533607476018429}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9087496602072200570}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &380403188424058030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446533607476018429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d530df850cc16542bab8e046df90e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  masterVolume: 0.5
+  bgVolume: 0.5
+  sfxVolume: 0.5
+  testIndex: 2
+  ambienceEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  musicEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  sfxObjectsList:
+  - Name: Pop
+    sfxPath:
+      Guid:
+        Data1: -202202893
+        Data2: 1160288287
+        Data3: 1421414532
+        Data4: -1411281878
+      Path: event:/SFX/Pop
+  - Name: Charge
+    sfxPath:
+      Guid:
+        Data1: 1222154944
+        Data2: 1233751270
+        Data3: 212539025
+        Data4: 229938595
+      Path: event:/SFX/Charge
+  - Name: Shoot
+    sfxPath:
+      Guid:
+        Data1: -1961889623
+        Data2: 1289766637
+        Data3: -2073719910
+        Data4: 312159463
+      Path: event:/SFX/Shoot
+  - Name: Explosion
+    sfxPath:
+      Guid:
+        Data1: -1905687899
+        Data2: 1322428949
+        Data3: -1534622529
+        Data4: -637971910
+      Path: event:/SFX/Explosion
+  - Name: WaterSplash
+    sfxPath:
+      Guid:
+        Data1: 1799453632
+        Data2: 1319883246
+        Data3: 1423693491
+        Data4: 328748650
+      Path: event:/SFX/WaterSplash
+  - Name: Slurp
+    sfxPath:
+      Guid:
+        Data1: 13414597
+        Data2: 1284702194
+        Data3: -967787124
+        Data4: 560759348
+      Path: event:/SFX/Slurp
+  - Name: UIClick
+    sfxPath:
+      Guid:
+        Data1: -1811508232
+        Data2: 1224316128
+        Data3: 1249924739
+        Data4: 1503227957
+      Path: event:/SFX/UIClick
 --- !u!1 &3739119535038547768
 GameObject:
   m_ObjectHideFlags: 0
@@ -3047,8 +3166,41 @@ Transform:
   - {fileID: 3739119536175753159}
   - {fileID: 3739119536140580654}
   - {fileID: 3038940160667194637}
+  - {fileID: 9087496602072200570}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4844379418630814571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9087496602072200570}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9087496602072200570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4844379418630814571}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.422464, y: 16.685923, z: -15.668863}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2979351176364918440}
+  m_Father: {fileID: 2058534732065599578}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1430055647310059954
 PrefabInstance:

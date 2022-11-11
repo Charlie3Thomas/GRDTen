@@ -26299,6 +26299,14 @@ MonoBehaviour:
         Data3: -967787124
         Data4: 560759348
       Path: event:/SFX/Slurp
+  - Name: UIClick
+    sfxPath:
+      Guid:
+        Data1: -1811508232
+        Data2: 1224316128
+        Data3: 1249924739
+        Data4: 1503227957
+      Path: event:/SFX/UIClick
 --- !u!1001 &2322891352102572801
 PrefabInstance:
   m_ObjectHideFlags: 0
