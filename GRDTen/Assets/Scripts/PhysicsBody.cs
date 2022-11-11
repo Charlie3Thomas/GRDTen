@@ -9,6 +9,7 @@ public class PhysicsBody : MonoBehaviour
     private Rigidbody rb;
     private bool inOrbit = false;
     private bool getSucked = false;
+    private float rn = 0.5f;
     private GameObject earth;
     private MeshCollider orbit1;
     private MeshCollider orbit3;
@@ -25,6 +26,7 @@ public class PhysicsBody : MonoBehaviour
         collectableManager = GameObject.FindGameObjectWithTag("CollectableManager");
         gameObject.layer = LayerMask.NameToLayer("Non-Orbital");
         AudioManager.Instance.PlayOneShotWithParameters("Pop", transform);
+        rn = Random.Range(0.5f, 1.5f);
     }
 
     // Update is called once per frame
@@ -99,7 +101,7 @@ public class PhysicsBody : MonoBehaviour
 
     IEnumerator Sucking()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(rn);
 
         getSucked = false;
 
