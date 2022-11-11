@@ -24,6 +24,7 @@ public class PhysicsBody : MonoBehaviour
         theSuck = GameObject.FindGameObjectWithTag("MotherShip");
         collectableManager = GameObject.FindGameObjectWithTag("CollectableManager");
         gameObject.layer = LayerMask.NameToLayer("Non-Orbital");
+        AudioManager.Instance.PlayOneShotWithParameters("Pop", transform);
     }
 
     // Update is called once per frame

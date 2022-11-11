@@ -17439,9 +17439,9 @@ GameObject:
   m_Component:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
-  - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
+  - component: {fileID: 963194231}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -17449,14 +17449,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &963194226
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
@@ -17563,6 +17555,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orientation: {fileID: 428435143}
   sensitivity: 100
+--- !u!114 &963194231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!1 &974332111
 GameObject:
   m_ObjectHideFlags: 0
@@ -25034,6 +25039,7 @@ Transform:
   - {fileID: 758494085}
   - {fileID: 1231430491}
   - {fileID: 1014193102}
+  - {fileID: 2084945441}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -26151,6 +26157,109 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2084945440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084945441}
+  - component: {fileID: 2084945442}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084945441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084945440}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1911763700}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2084945442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084945440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d530df850cc16542bab8e046df90e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  masterVolume: 0.5
+  bgVolume: 0.5
+  sfxVolume: 0.5
+  testIndex: 2
+  ambienceEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  musicEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  sfxObjectsList:
+  - Name: Pop
+    sfxPath:
+      Guid:
+        Data1: -202202893
+        Data2: 1160288287
+        Data3: 1421414532
+        Data4: -1411281878
+      Path: event:/SFX/Pop
+  - Name: Charge
+    sfxPath:
+      Guid:
+        Data1: 1222154944
+        Data2: 1233751270
+        Data3: 212539025
+        Data4: 229938595
+      Path: event:/SFX/Charge
+  - Name: Shoot
+    sfxPath:
+      Guid:
+        Data1: -1961889623
+        Data2: 1289766637
+        Data3: -2073719910
+        Data4: 312159463
+      Path: event:/SFX/Shoot
+  - Name: Explosion
+    sfxPath:
+      Guid:
+        Data1: -1905687899
+        Data2: 1322428949
+        Data3: -1534622529
+        Data4: -637971910
+      Path: event:/SFX/Explosion
+  - Name: WaterSplash
+    sfxPath:
+      Guid:
+        Data1: 1799453632
+        Data2: 1319883246
+        Data3: 1423693491
+        Data4: 328748650
+      Path: event:/SFX/WaterSplash
 --- !u!1001 &2322891352102572801
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -2116,7 +2116,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 117184064780652686}
-  - component: {fileID: 1291264899112610784}
   m_Layer: 0
   m_Name: Globe3D
   m_TagString: Untagged
@@ -2324,19 +2323,6 @@ Transform:
   m_Father: {fileID: 2322891353449366060}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1291264899112610784
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786866482652252724}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.0108955605
-  m_Center: {x: 0, y: 0.01095589, z: 0.0000000013969838}
 --- !u!1 &839623157146082367
 GameObject:
   m_ObjectHideFlags: 0
@@ -11762,6 +11748,7 @@ GameObject:
   - component: {fileID: 2322891352258259551}
   - component: {fileID: 2322891352258259552}
   - component: {fileID: 2322891352258259553}
+  - component: {fileID: 3350041031617524306}
   m_Layer: 4
   m_Name: Water
   m_TagString: Untagged
@@ -11834,6 +11821,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &3350041031617524306
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2322891352258259548}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0.000000029802322, z: 0}
 --- !u!1 &2322891352272426290
 GameObject:
   m_ObjectHideFlags: 0
