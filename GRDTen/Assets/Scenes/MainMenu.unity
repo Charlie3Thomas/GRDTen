@@ -183,23 +183,24 @@ PrefabInstance:
     - target: {fileID: 3739119535390465958, guid: ab15ce4c32cae3e4eadef41162d24e82, type: 3}
       propertyPath: m_text
       value: "esc\t: pause, year & crop selector\nwasd\t: forward, left, back, right\nspace\t:
-        up\nctrl\t: down\nclick\t: fire extractor\nr\t: clear extracted crops\n\ncrop
-        yields extracted into orbit are represented\nas objects of differing scale.
-        \n\nthis scale depends on the target countries \nproduction scale, with larger
-        objects representing\nhigher quantities of crop.\n\ntemperature is showin
-        in \xB0C, and is relative to the\n1951-1980 global average temperature. Data
-        is based\non the HadCRUT analysis done at the Climate \nResearch Unit (University
-        of East Anglia), in \npartnership with the Hadley Centre UK Met Office.\n\nCrop
-        Data is sourced from Hannah Ritchie, Pablo \nRosado and Max Roser (2020)
-        - \"Agricultural \nProduction\". Published online at:\nOurWorldInData.org."
+        up\nctrl\t: down\nclick\t: fire extractor\nr\t: clear extracted crops\nq/e\t:
+        increment year on hold\n\ncrop yields extracted into orbit are represented\nas
+        objects of differing scale. \n\nthis scale depends on the target countries
+        \nproduction scale, with larger objects representing\nhigher quantities of
+        crop.\n\ntemperature is showin in \xB0C, and is relative to the\n1951-1980
+        global average temperature. Data is based\non the HadCRUT analysis done at
+        the Climate \nResearch Unit (University of East Anglia), in \npartnership
+        with the Hadley Centre UK Met Office.\n\nCrop Data is sourced from Hannah
+        Ritchie, Pablo \nRosado and Max Roser (2020) - \"Agricultural \nProduction\".
+        Published online at:\nOurWorldInData.org."
       objectReference: {fileID: 0}
     - target: {fileID: 3739119535390465958, guid: ab15ce4c32cae3e4eadef41162d24e82, type: 3}
       propertyPath: m_fontSize
-      value: 33
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 3739119535390465958, guid: ab15ce4c32cae3e4eadef41162d24e82, type: 3}
       propertyPath: m_fontSizeBase
-      value: 33
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 3739119535390465959, guid: ab15ce4c32cae3e4eadef41162d24e82, type: 3}
       propertyPath: m_AnchoredPosition.y

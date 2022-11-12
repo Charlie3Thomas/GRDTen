@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject xSpot;
     [SerializeField] private GameObject extractor;
     private float chargeTimer = 0.0f;
-    private float chargeAmount = 2.0f;
+    private float chargeAmount = 1.5f;
     [SerializeField] private ParticleSystem chargeParticle;
     private ParticleSystem.EmissionModule cpe;
     [SerializeField] private ParticleSystem shimmerParticle;
@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
     private GameObject earth;
     [SerializeField] private LayerMask country;
     private GameObject prevCountry;
+
+    private bool chargeSound = false;
 
     /****************************************************************************************************************************** 
     *PLEASE NOTE THAT IF YOU CHANGE THE ORDER OF THE CHILDREN UNDER "OUTLINES" IN THE HEIRARCHY, THE OUTLINES WILL NOT BE ACCURATE* 
@@ -105,8 +107,10 @@ public class PlayerController : MonoBehaviour
         {
             if (shoot && PlayerInputManager.instance.release)
             {
+                chargeSound = false;
                 GameObject extractorGO = Instantiate(extractor, shimmerParticle.transform.position, Quaternion.identity);
-                extractorGO.GetComponent<Rigidbody>().AddForce(orientation.forward * 200);
+                AudioManager.Instance.PlayOneShotWithParameters("Shoot", transform);
+                extractorGO.GetComponent<Rigidbody>().AddForce(orientation.forward * 600);
                 shoot = false;
                 chargeTimer = 0.0f;
             }
@@ -129,12 +133,18 @@ public class PlayerController : MonoBehaviour
         {
             cpe.rateOverTime = 90.0f;
             shimmerParticle.transform.localScale = new Vector3(chargeTimer / chargeAmount, chargeTimer / chargeAmount, chargeTimer / chargeAmount);
+            if (!chargeSound)
+            {
+                AudioManager.Instance.PlayOneShotWithParameters("Charge", transform, ("IsCharging", PlayerInputManager.instance.chargeShot ? 1f : 0f));
+                chargeSound = true;
+            }
         }
         else
         {
             cpe.rateOverTime = 0.0f;
             shimmerParticle.transform.localScale = new Vector3(0, 0, 0);
             shoot = false;
+            chargeSound = false;
         }
 
         if (chargeTimer >= chargeAmount)

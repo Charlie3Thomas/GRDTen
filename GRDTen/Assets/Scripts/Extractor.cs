@@ -43,6 +43,12 @@ public class Extractor : MonoBehaviour
 
                 Instantiate(pl.transform.gameObject, other.contacts[0].point, Quaternion.FromToRotation(transform.forward, other.contacts[0].normal));
             }
+            AudioManager.Instance.PlayOneShotWithParameters("Explosion", transform);
+        }
+
+        if (other.transform.gameObject.layer == LayerMask.NameToLayer("Water"))
+        {
+            AudioManager.Instance.PlayOneShotWithParameters("WaterSplash", transform);
         }
 
         Destroy(gameObject);
