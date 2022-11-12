@@ -30,11 +30,11 @@ Transform:
   m_GameObject: {fileID: 2295679514842934409}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 12.464661, y: 12.352516, z: 10.789217}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2295679514842934645
 MeshFilter:
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 21f8cfaea82f3b14997e8c33b996e06c, type: 2}
+  - {fileID: 2100000, guid: df508ae72225f5d42bbeb56c7ff92350, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -97,7 +97,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.95
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2295679514842934408
 MonoBehaviour:
@@ -112,6 +112,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pl: {fileID: 6640429600999103366, guid: 90c502eb00b21814982795cd4e3dad56, type: 3}
+  splash: {fileID: 8684463691346890981, guid: 5f902dc34227de74baedafc7178a12fc, type: 3}
+  blast: {fileID: 8232246819405107109, guid: 1c271ee33e15a8746aeb2c2af0b636f3, type: 3}
 --- !u!54 &6491241775223337042
 Rigidbody:
   m_ObjectHideFlags: 0

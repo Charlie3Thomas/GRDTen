@@ -27351,6 +27351,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 3350041031617524306, guid: 09f198b280a73d548aa29d8bc5ebeb9a, type: 3}
+      propertyPath: m_Radius
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3369803560634257945, guid: 09f198b280a73d548aa29d8bc5ebeb9a, type: 3}
       propertyPath: m_TagString
       value: Untagged
