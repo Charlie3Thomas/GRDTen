@@ -149,6 +149,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CoffeeBean
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: d1d8469c50a8e6444b8327d528a6880c, type: 3}
+      propertyPath: m_Size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5582930449697679080, guid: d1d8469c50a8e6444b8327d528a6880c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

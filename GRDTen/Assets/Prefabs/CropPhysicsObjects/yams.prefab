@@ -157,6 +157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yam
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: f767e3b1ac4262b499eb90639f0751dc, type: 3}
+      propertyPath: m_Size
+      value: 3.2
+      objectReference: {fileID: 0}
     - target: {fileID: 5141952446448724566, guid: f767e3b1ac4262b499eb90639f0751dc, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

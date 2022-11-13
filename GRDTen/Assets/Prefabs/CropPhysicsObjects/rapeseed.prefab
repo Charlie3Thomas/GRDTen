@@ -157,6 +157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rapeseed
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 0d55c481fad9588498352e1784c6e765, type: 3}
+      propertyPath: m_Size
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4881244855023240056, guid: 0d55c481fad9588498352e1784c6e765, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

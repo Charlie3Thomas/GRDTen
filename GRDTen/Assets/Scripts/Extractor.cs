@@ -31,7 +31,7 @@ public class Extractor : MonoBehaviour
     {
         if(other.transform.gameObject.layer == LayerMask.NameToLayer("Country"))
         {
-            if(other.transform.GetComponent<CountryTempsAndOutlines>().GetHighlighed())
+            if(other.transform.GetComponent<CountryProperties>().GetHighlighed() && !other.transform.GetComponent<CountryProperties>().GetHarvest())
             {
                 if (other.transform.childCount > 0)
                 {
@@ -45,6 +45,7 @@ public class Extractor : MonoBehaviour
 
                 Instantiate(blast.transform.gameObject, other.contacts[0].point, Quaternion.FromToRotation(transform.forward, other.contacts[0].normal));
                 Instantiate(pl.transform.gameObject, other.contacts[0].point, Quaternion.FromToRotation(transform.forward, other.contacts[0].normal));
+                //other.transform.GetComponent<CountryProperties>().SetHarvest(true);
             }
             AudioManager.Instance.PlayOneShotWithParameters("Explosion", transform);
         }

@@ -157,6 +157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bean
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 32c90c96c8f28fe45b1b44589b04736d, type: 3}
+      propertyPath: m_Size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8677197258603976581, guid: 32c90c96c8f28fe45b1b44589b04736d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
