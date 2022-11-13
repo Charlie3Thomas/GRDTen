@@ -153,6 +153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: peas
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 185469f579b85b948ae62248138d0af5, type: 3}
+      propertyPath: m_Size
+      value: 2.6
+      objectReference: {fileID: 0}
     - target: {fileID: 7957809274462077796, guid: 185469f579b85b948ae62248138d0af5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

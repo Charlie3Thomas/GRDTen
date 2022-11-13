@@ -149,6 +149,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tomato
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 753836bf80bb05c428fb2101ea35f1eb, type: 3}
+      propertyPath: m_Size
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7639748849247022737, guid: 753836bf80bb05c428fb2101ea35f1eb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

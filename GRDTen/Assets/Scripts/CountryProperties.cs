@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CountryTempsAndOutlines : MonoBehaviour
+public class CountryProperties : MonoBehaviour
 {
     [SerializeField] private GameObject outlines;
     [SerializeField] private TempData td;
@@ -13,6 +13,7 @@ public class CountryTempsAndOutlines : MonoBehaviour
     private bool isHighlighed;
     private Material mat;
     private float rn;
+    private bool harvested = false;
 
     // Start is called before the first frame update
     void Start()
@@ -67,5 +68,15 @@ public class CountryTempsAndOutlines : MonoBehaviour
         {
             return -99f;
         }
+    }
+
+    public void SetHarvest(bool isHarvested)
+    {
+        harvested = isHarvested;
+    }
+
+    public bool GetHarvest()
+    {
+        return harvested;
     }
 }

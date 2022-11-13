@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BlueGlow
-  m_Shader: {fileID: -6465566751694194690, guid: ce7818ec2fdaf6f438268b95b1bb1f09, type: 3}
+  m_Name: Plasma
+  m_Shader: {fileID: -6465566751694194690, guid: 6baf805edb0f0cb49a5e84f629a15d61, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []

@@ -157,6 +157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CocoaBean
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 519e2e9ad6b19294caded34e5c70776f, type: 3}
+      propertyPath: m_Size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8008425150955068554, guid: 519e2e9ad6b19294caded34e5c70776f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

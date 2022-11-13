@@ -157,6 +157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Maize
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 45b1834d57669b54a997618d59f63881, type: 3}
+      propertyPath: m_Size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8733746733171914572, guid: 45b1834d57669b54a997618d59f63881, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
