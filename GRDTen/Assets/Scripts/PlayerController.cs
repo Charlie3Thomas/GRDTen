@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, country))
         {
             try { // Get temps from lookat country
-                CountryTempHolder._INSTANCE.selected_country_temp = hit.transform.GetComponent<CountryTempsAndOutlines>().GetTemp();
+                CountryTempHolder._INSTANCE.selected_country_temp = hit.transform.GetComponent<CountryProperties>().GetTemp();
                 if (CountryTempHolder._INSTANCE.selected_country_temp == -99) // if no data
                     CountryTempHolder._INSTANCE.selected_country_temp = 0; } // set no temperature deviation
             catch { CountryTempHolder._INSTANCE.selected_country_temp = 0.0f; } // set no temperature deviation
@@ -81,10 +81,10 @@ public class PlayerController : MonoBehaviour
             if (PlayerInputManager.instance.fireRay)
             {
                 if (prevCountry != null)
-                    prevCountry.GetComponent<CountryTempsAndOutlines>().GetOutlineMat().SetInt("_isHighlighted", 0);
+                    prevCountry.GetComponent<CountryProperties>().GetOutlineMat().SetInt("_isHighlighted", 0);
 
-                hit.transform.GetComponent<CountryTempsAndOutlines>().GetOutlineMat().SetInt("_isHighlighted", 1);
-                Debug.Log(hit.transform.GetComponent<CountryTempsAndOutlines>().GetTemp());
+                hit.transform.GetComponent<CountryProperties>().GetOutlineMat().SetInt("_isHighlighted", 1);
+                Debug.Log(hit.transform.GetComponent<CountryProperties>().GetTemp());
                 
                 if (hit.transform.childCount > 0)
                     if(hit.transform.GetChild(0).GetComponent<CountryDataLoader>() != null)
